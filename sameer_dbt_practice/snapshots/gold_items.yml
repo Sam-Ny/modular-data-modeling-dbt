@@ -1,0 +1,11 @@
+snapshots:
+  - name: gold_items
+    relation: ref('source_gold_items')
+    config:
+        schema: gold
+        database: '{{ target.catalog }}'
+        unique_key: id
+        strategy: timestamp
+        updated_at: updateDate
+        dbt_valid_to_current: "to_date('9999-12-31')"
+    

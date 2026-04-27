@@ -1,0 +1,196 @@
+[0m14:05:43.479739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012BD3872300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012BD6FA4D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012BD6FA4C50>]}
+
+
+============================== 14:05:43.539415 | 6ffa31fa-79ad-47d5-915a-11e2109171ed ==============================
+[0m14:05:43.539415 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:05:43.539415 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\samee\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:05:43.652253 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\samee\.dbt
+[0m14:06:27.563699 [debug] [MainThread]: Starter project path: D:\DBT Practice\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:06:27.579789 [info ] [MainThread]: 
+Your new dbt project "sameeer_dbt_practice" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:06:27.580794 [info ] [MainThread]: Setting up your profile.
+[0m14:07:04.813345 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:07:04.817606 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:07:04.818625 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:07:19.486485 [warn ] [MainThread]: databricks-sql-connector adapter: [WARN] pyarrow is not installed by default since databricks-sql-connector 4.0.0,any arrow specific api (e.g. fetchmany_arrow) and cloud fetch will be disabled.If you need these features, please run pip install pyarrow or pip install databricks-sql-connector[pyarrow] to install
+[0m14:15:59.171037 [info ] [MainThread]: Profile sameeer_dbt_practice written to C:\Users\samee\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:15:59.171037 [debug] [MainThread]: Command `dbt init` succeeded at 14:15:59.171037 after 615.98 seconds
+[0m14:15:59.171037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012BED1BA540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012BECE91E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012BECE6AC00>]}
+[0m14:15:59.171037 [debug] [MainThread]: Flushing usage events
+[0m14:16:00.660572 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:16:18.129388 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022BF4DF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022C244530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022C7B79B0>]}
+
+
+============================== 14:16:18.130429 | 46ff6bbf-7436-4d6b-84d0-8af0e5f4bd1c ==============================
+[0m14:16:18.130429 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:16:18.135211 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\samee\\.dbt', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:16:18.170542 [info ] [MainThread]: dbt version: 1.11.8
+[0m14:16:18.171847 [info ] [MainThread]: python version: 3.12.9
+[0m14:16:18.171847 [info ] [MainThread]: python path: D:\DBT Practice\.venv\Scripts\python.exe
+[0m14:16:18.172895 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m14:16:19.524391 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:16:19.524391 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:16:19.524391 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:16:23.458492 [warn ] [MainThread]: databricks-sql-connector adapter: [WARN] pyarrow is not installed by default since databricks-sql-connector 4.0.0,any arrow specific api (e.g. fetchmany_arrow) and cloud fetch will be disabled.If you need these features, please run pip install pyarrow or pip install databricks-sql-connector[pyarrow] to install
+[0m14:16:23.697759 [info ] [MainThread]: Using profiles dir at C:\Users\samee\.dbt
+[0m14:16:23.699273 [info ] [MainThread]: Using profiles.yml file at C:\Users\samee\.dbt\profiles.yml
+[0m14:16:23.700356 [info ] [MainThread]: Using dbt_project.yml file at D:\DBT Practice\dbt_project.yml
+[0m14:16:23.700356 [info ] [MainThread]: adapter type: databricks
+[0m14:16:23.701375 [info ] [MainThread]: adapter version: 1.11.7
+[0m14:16:23.702421 [info ] [MainThread]: Configuration:
+[0m14:16:23.702421 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:16:23.703430 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:16:23.704437 [info ] [MainThread]: Required dependencies:
+[0m14:16:23.706928 [debug] [MainThread]: Executing "git --help"
+[0m14:16:23.789588 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:16:23.790587 [debug] [MainThread]: STDERR: "b''"
+[0m14:16:23.791767 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:16:23.792096 [info ] [MainThread]: Connection:
+[0m14:16:23.794469 [info ] [MainThread]:   host: dbc-8b51dfa5-c836.cloud.databricks.com
+[0m14:16:23.796612 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/ca46861f670671bd
+[0m14:16:23.796612 [info ] [MainThread]:   catalog: dbt_practice_dev
+[0m14:16:23.796612 [info ] [MainThread]:   schema: default
+[0m14:16:23.800460 [info ] [MainThread]: Registered adapter: databricks=1.11.7
+[0m14:16:25.012892 [warn ] [MainThread]: [[33mWARNING[0m]: Use managed Iceberg tables when table_format is iceberg. When this flag is disabled, UniForm is used instead.
+You may opt into the new behavior sooner by setting `flags.use_managed_iceberg` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m14:16:25.014317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '46ff6bbf-7436-4d6b-84d0-8af0e5f4bd1c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022F9C8CB0>]}
+[0m14:16:25.016375 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m14:16:25.017375 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m14:16:25.017375 [debug] [MainThread]: Using databricks connection "debug"
+[0m14:16:25.018373 [debug] [MainThread]: On debug: select 1 as id
+[0m14:16:25.018373 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:16:26.337737 [error] [MainThread]: databricks-sql-connector adapter: ThriftBackend.attempt_request: Exception: %s
+[0m14:16:26.360336 [error] [MainThread]: Databricks adapter: Connection(session-id=Unknown) - Exception while trying to create connection: Error during request to server: : Provided PAT token does not have required scopes: sql. 
+Error properties: attempt=1/30, bounded-retry-delay=None, elapsed-seconds=1.190089464187622/900.0, error-message=: Provided PAT token does not have required scopes: sql, http-code=403, method=OpenSession, no-retry-reason=non-retryable error, original-exception=, query-id=None, session-id=None
+[0m14:16:26.360336 [debug] [MainThread]: Databricks adapter: Exception while trying to execute query
+select 1 as id
+: Database Error
+  Error during request to server: : Provided PAT token does not have required scopes: sql. 
+[0m14:16:26.360336 [debug] [MainThread]: On debug: No close available on handle
+[0m14:16:26.364568 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:16:26.364568 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:16:26.364568 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\DBT Practice\dbt_project.yml> not found
+
+[0m14:16:26.364568 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Database Error
+    Error during request to server: : Provided PAT token does not have required scopes: sql. 
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:16:26.370438 [debug] [MainThread]: Command `dbt debug` failed at 14:16:26.369708 after 8.55 seconds
+[0m14:16:26.370438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020228F52180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022F9C8CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022F95D280>]}
+[0m14:16:26.371556 [debug] [MainThread]: Flushing usage events
+[0m14:16:27.660208 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:26:35.129804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE6CACA360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE6CCE1010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE6C8C2AB0>]}
+
+
+============================== 14:26:35.142051 | 8be24e7b-b5e7-472e-8552-095497ab5f10 ==============================
+[0m14:26:35.142051 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:26:35.142051 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\samee\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:26:57.478744 [debug] [MainThread]: Starter project path: D:\DBT Practice\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:26:57.498013 [info ] [MainThread]: 
+Your new dbt project "sameer_dbt_practice" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:26:57.498013 [info ] [MainThread]: Setting up your profile.
+[0m14:27:03.533918 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:27:03.535667 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:27:03.535667 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:27:06.720375 [warn ] [MainThread]: databricks-sql-connector adapter: [WARN] pyarrow is not installed by default since databricks-sql-connector 4.0.0,any arrow specific api (e.g. fetchmany_arrow) and cloud fetch will be disabled.If you need these features, please run pip install pyarrow or pip install databricks-sql-connector[pyarrow] to install
+[0m14:27:57.167671 [info ] [MainThread]: Profile sameer_dbt_practice written to C:\Users\samee\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:27:57.176152 [debug] [MainThread]: Command `dbt init` succeeded at 14:27:57.176152 after 82.26 seconds
+[0m14:27:57.177193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE6D1642F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE6702F140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE7EB2F6E0>]}
+[0m14:27:57.177193 [debug] [MainThread]: Flushing usage events
+[0m14:27:58.392708 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:19:02.511448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001929A6B69C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001929B794560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001929B8D9DC0>]}
+
+
+============================== 21:19:02.523503 | 36d5b4f5-768e-4816-9768-baf5df4bc107 ==============================
+[0m21:19:02.523503 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:19:02.523503 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\samee\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:19:02.546278 [info ] [MainThread]: dbt version: 1.11.8
+[0m21:19:02.546278 [info ] [MainThread]: python version: 3.12.9
+[0m21:19:02.546278 [info ] [MainThread]: python path: D:\DBT Practice\.venv\Scripts\python.exe
+[0m21:19:02.546278 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m21:19:03.822247 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:19:03.822247 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:19:03.822247 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:19:04.872412 [info ] [MainThread]: Using profiles dir at C:\Users\samee\.dbt
+[0m21:19:04.872412 [info ] [MainThread]: Using profiles.yml file at C:\Users\samee\.dbt\profiles.yml
+[0m21:19:04.872412 [info ] [MainThread]: Using dbt_project.yml file at D:\DBT Practice\dbt_project.yml
+[0m21:19:04.872412 [info ] [MainThread]: adapter type: databricks
+[0m21:19:04.872412 [info ] [MainThread]: adapter version: 1.11.7
+[0m21:19:04.872412 [info ] [MainThread]: Configuration:
+[0m21:19:04.872412 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:19:04.872412 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:19:04.872412 [info ] [MainThread]: Required dependencies:
+[0m21:19:04.882182 [debug] [MainThread]: Executing "git --help"
+[0m21:19:04.949208 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:19:04.949208 [debug] [MainThread]: STDERR: "b''"
+[0m21:19:04.949208 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:19:04.949208 [info ] [MainThread]: Connection:
+[0m21:19:04.949208 [info ] [MainThread]:   host: dbc-8b51dfa5-c836.cloud.databricks.com
+[0m21:19:04.949208 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/ca46861f670671bd
+[0m21:19:04.949208 [info ] [MainThread]:   catalog: dbt_practice_dev
+[0m21:19:04.949208 [info ] [MainThread]:   schema: default
+[0m21:19:04.956150 [info ] [MainThread]: Registered adapter: databricks=1.11.7
+[0m21:19:05.704928 [warn ] [MainThread]: [[33mWARNING[0m]: Use managed Iceberg tables when table_format is iceberg. When this flag is disabled, UniForm is used instead.
+You may opt into the new behavior sooner by setting `flags.use_managed_iceberg` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m21:19:05.704928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '36d5b4f5-768e-4816-9768-baf5df4bc107', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192AF5B2CC0>]}
+[0m21:19:05.720664 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m21:19:05.720664 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:19:05.720664 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:19:05.720664 [debug] [MainThread]: On debug: select 1 as id
+[0m21:19:05.720664 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:19:08.877003 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f14187-765a-1013-9e5e-d5e849102382) - Created
+[0m21:19:13.032111 [debug] [MainThread]: SQL status: OK in 7.310 seconds
+[0m21:19:13.040311 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f14187-765a-1013-9e5e-d5e849102382, command-id=01f14187-7686-1c27-9c89-1f7a192f056d) - Closing
+[0m21:19:13.040311 [debug] [MainThread]: On debug: Close
+[0m21:19:13.041519 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f14187-765a-1013-9e5e-d5e849102382) - Closing
+[0m21:19:13.328946 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:19:13.328946 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:19:13.328946 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\DBT Practice\dbt_project.yml> not found
+
+[0m21:19:13.328946 [debug] [MainThread]: Command `dbt debug` failed at 21:19:13.328946 after 11.10 seconds
+[0m21:19:13.328946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001929B769430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001929B70C980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019298111FD0>]}
+[0m21:19:13.341267 [debug] [MainThread]: Flushing usage events
+[0m21:19:14.584992 [debug] [MainThread]: An error was encountered while trying to flush usage events

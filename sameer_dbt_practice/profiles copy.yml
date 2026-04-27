@@ -1,0 +1,18 @@
+sameer_dbt_practice:
+  outputs:
+    dev:
+      catalog: dbt_practice_dev
+      host: dbc-8b51dfa5-c836.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/ca46861f670671bd
+      schema: default
+      threads: 1
+      type: databricks
+
+    prod:
+      catalog: dbt_practice_prod
+      host: dbc-8b51dfa5-c836.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/ca46861f670671bd
+      schema: default
+      threads: 1
+      type: databricks
+  target: dev

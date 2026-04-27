@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: source
+    database: '{{ target.catalog }}'
+    schema: source  
+    tables:
+      - name: fact_sales
+      - name: dim_customer
+      - name: dim_date
+      - name: dim_product
+      - name: dim_store
+      - name: fact_returns
+      - name: items

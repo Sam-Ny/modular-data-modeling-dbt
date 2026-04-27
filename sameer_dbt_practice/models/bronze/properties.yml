@@ -1,0 +1,38 @@
+version: 2 
+
+# This is a property level configuration file. It is used to set properties for models, seeds, snapshots, and tests.
+
+models:
+  - name: bronze_date # Must match the filename of a model -- including case sensitivity.
+    config:
+      materialized: view
+
+  - name: bronze_product
+    config:
+      materialized: view
+
+# Apply tests to the bronze_sales model
+
+  - name: bronze_sales
+    columns:
+      - name: sales_id
+        data_tests:
+          - unique
+          - not_null
+      - name: gross_amount
+        data_tests:
+          - generic_non_negative
+
+  - name: bronze_store
+    columns:
+      - name: store_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: store_name
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['MegaMart Manhattan', 'MegaMart Brooklyn', 'MegaMart Austin', 'MegaMart San Jose', 'MegaMart Toronto']
+              config:
+                severity: warn

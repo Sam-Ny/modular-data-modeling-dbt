@@ -47,10 +47,3 @@ I followed a modular approach to build the final dataset:
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmN6eXN4Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z/l41lTjJ9O6t8D8G0M/giphy.gif" width="300" alt="Processing Data">
 </p>
 
----
-
-## 🚀 Getting Started
-
-1. **Clone & Setup:**
-   ```bash
-   git clone [https://github.com/Sam-Ny/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)

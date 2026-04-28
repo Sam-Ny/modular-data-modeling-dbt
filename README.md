@@ -20,6 +20,12 @@ Instead of just writing SQL, I treated data like **software code**, implementing
 
 ---
 
+## 📊 Lineage Graph
+
+![Lineage Graph](sameer_dbt_practice/lineage.png)
+
+---
+
 ## 🎯 The dbt Toolkit (Fundamentals Covered)
 
 | Feature | Implementation |
